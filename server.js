@@ -19,10 +19,7 @@ app.use(bodyParser.json());
 app.use(cors()); // Use this after the variable declaration
 
 
-
-
-// DB Config
-const db = "mongodb+srv://arusimgroceries:onlineshopping@cluster0.vnrg4.mongodb.net/arusimDB";
+const db = require("./config/keys").mongoURL;
 
 
 //Connect to MongoDB
