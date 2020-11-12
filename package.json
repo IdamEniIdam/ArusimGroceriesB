@@ -8,7 +8,7 @@
     "server": "nodemon server.js"
   },
   "engines": {
-    "node": "11.2.0"
+    "node": "14.7.0"
   },
   "author": "Idam Eni Idam",
   "license": "MIT",
